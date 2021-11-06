@@ -75,5 +75,3 @@ function watch (){
 }
 
 exports.default = gulp.series(delBuild, fonts, html, normalize, scss2css, imageMin, script, watch);
-
-// добавить удаление папки
