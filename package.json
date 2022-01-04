@@ -1,20 +1,16 @@
 {
-  "name": "gulp_justified_2022",
-  "version": "1.0.0",
-  "description": "new build 04.01.2022",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ilya Tsygankov",
-  "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
-    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.45.2"
-  }
+    "gulp-imagemin": "^7.1.0"
+  },
+  "browserslist": [
+    "last 4 version"
+  ]
 }
